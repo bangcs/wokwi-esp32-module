@@ -2,6 +2,7 @@
 	import Sidebar from '$lib/components/Sidebar.svelte';
 	import CodeBlock from '$lib/components/CodeBlock.svelte';
 	import EmbeddedSimulation from '$lib/components/EmbeddedSimulation.svelte';
+	import EmbeddedQuiz from '$lib/components/EmbeddedQuiz.svelte';
     import Note from '$lib/components/Note.svelte';
 </script>
 
@@ -154,7 +155,10 @@ void loop() {
 	</Note>
 
 	<!-- Embedded Simulation -->
-	<EmbeddedSimulation src="https://wokwi.com/projects/392792918005518336" />
+	<EmbeddedSimulation src="https://wokwi.com/esp32" />
+	
+	<EmbeddedQuiz src="https://www.gimkit.com/practice/68d9b715e20570aa68dd8a9a" />
+	
 </section>
 </main>
 	
